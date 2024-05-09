@@ -22,13 +22,13 @@
 <body>
     <div id="app">
 
-{{--         @include('partials.header')
- --}}        <main class="">
+        @include('partials.header')
+        <main class="">
             @yield('content')
         </main>
 
-{{--         @include('partials.footer')
- --}}
+        @include('partials.footer')
+
     </div>
 
 </body>

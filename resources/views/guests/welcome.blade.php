@@ -18,6 +18,7 @@
 
     </head>
 
+
     <body>
 
         <main class="bg-light">
@@ -26,7 +27,15 @@
                     <h1>MOVIES</h1>
                     @foreach ($movies as $movie)
                         <div class="col">
-                            <div class="card"> {{ $movie->title }}</div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://picsum.photos/200/200" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ $movie->title }}</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-danger text-dark">Go somewhere</a>
+                                </div>
+                            </div>
                         </div>
                     @endforeach
                 </div>
