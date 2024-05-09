@@ -23,7 +23,7 @@
 
         <main class="bg-danger-subtle">
             <div class="container  text-center py-3">
-                <h1 class="py-2">100% Movies.</h1>
+                <h1 class="py-2">American Movies 100% .</h1>
                 <div class="row g-3">
                     @foreach ($americans as $movie)
                         <div class="col">

@@ -1,0 +1,9 @@
+main {
+    h1 {
+        font-weight: 900;
+
+        &::first-letter {
+            color: red !important;
+        }
+    }
+}

@@ -9,11 +9,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item {{ Route::currentRouteName() === 'welcome' ? 'active' : '' }}" aria-current="page">
-                            <a class="nav-link "  href="{{ route('welcome') }}">Home</a>
+                        <li class="nav-item " aria-current="page">
+                            <a class="nav-link {{ Route::currentRouteName() === 'welcome' ? 'active' : '' }}"  href="{{ route('welcome') }}">Home</a>
                         </li>
-                        <li class="nav-item {{ Route::currentRouteName() === 'americans' ? 'active' : '' }}">
-                            <a class="nav-link"  href="{{ route('americans') }}">Americans</a>
+                        <li class="nav-item">
+                            <a class="nav-link {{ Route::currentRouteName() === 'americans' ? 'active' : '' }}"  href="{{ route('americans') }}">Americans</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">British</a>
