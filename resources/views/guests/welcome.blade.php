@@ -21,19 +21,19 @@
 
     <body>
 
-        <main class="bg-light">
-            <div class="container">
-                <div class="row">
-                    <h1>MOVIES</h1>
+        <main class="bg-danger-subtle">
+            <div class="container  text-center py-3">
+                <h1 class="py-2">Movies.</h1>
+                <div class="row g-3">
                     @foreach ($movies as $movie)
                         <div class="col">
-                            <div class="card" style="width: 18rem;">
+                            <div class="card border border-danger" style="width: 18rem;">
                                 <img src="https://picsum.photos/200/200" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">{{ $movie->title }}</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the
                                         bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-danger text-dark">Go somewhere</a>
+                                    <a href="#" class="btn btn-danger text-dark">More Info</a>
                                 </div>
                             </div>
                         </div>

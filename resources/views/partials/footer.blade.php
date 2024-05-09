@@ -1,4 +1,4 @@
-<div class="container">
+<footer class="  bg-danger"><div class="container   bg-danger">
   <footer class="py-5">
     <div class="row">
       <div class="col-6 col-md-2 mb-3">
@@ -41,7 +41,7 @@
           <div class="d-flex flex-column flex-sm-row w-100 gap-2">
             <label for="newsletter1" class="visually-hidden">Email address</label>
             <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-            <button class="btn btn-primary" type="button">Subscribe</button>
+            <button class="btn btn-dark" type="button">Subscribe</button>
           </div>
         </form>
       </div>
@@ -56,4 +56,4 @@
       </ul>
     </div>
   </footer>
-</div>
+</div></footer>
