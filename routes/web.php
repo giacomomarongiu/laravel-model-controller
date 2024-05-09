@@ -13,4 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [PageController::class , 'index']);
+Route::get('/', [PageController::class , 'index'])->name('welcome');
+Route::get('/americans', [PageController::class, 'americans'])->name('americans');
